@@ -1,0 +1,1001 @@
+id,merchant,category
+CARD-2025010201,Kahu Store,groceries
+CARD-2025010202,Tiny Galley,takeaway
+SAV-2025010201,Bank Interest,income
+SAV-2025010202,IRS Tax Withholding,fees
+CARD-2025010301,Credit Card Repayment,transfers
+CARD-2025010401,Target Grocery,groceries
+SAV-2025010301,Roundup Save,transfers
+SAV-2025010302,Credit Card Transfer,transfers
+CARD-2025010701,Brightpath,subscriptions
+CARD-2025010702,Washington DOL,transport
+CARD-2025010703,Chevron,transport
+SAV-2025010601,Roundup Save,transfers
+CARD-2025010801,Sweetwater,shopping
+CARD-2025010802,Highbrow,eating out
+CARD-2025010901,Gateway Grill,eating out
+CARD-2025010902,Kura Sushi,takeaway
+CARD-2025010903,Trader Joe's,groceries
+CARD-2025011001,Peet's Coffee,coffee
+CARD-2025011002,Good Dough Bagels,eating out
+CARD-2025010904,Target Grocery,groceries
+CARD-2025010905,Target Grocery,groceries
+CARD-2025011003,National Park Service,travel
+CARD-2025011004,Southern Airport Cafe,coffee
+SAV-2025010901,Roundup Save,transfers
+SAV-2025010902,Internal Transfer,transfers
+SAV-2025010903,Rent,rent
+CARD-2025011201,Target Grocery,groceries
+CARD-2025011202,Target Grocery,groceries
+SAV-2025011101,Investment Direct Debit,savings
+CARD-2025011301,Southern Airport Cafe,coffee
+CARD-2025011401,Oswald's Bar,eating out
+CARD-2025011402,Google One,subscriptions
+SAV-2025011301,Roundup Save,transfers
+CARD-2025011403,Kumo Kumo,eating out
+CARD-2025011404,Mochi Moon,takeaway
+CARD-2025011405,Walgreens,health
+CARD-2025011501,Keystone Credit Card Fee,fees
+CARD-2025011502,Patreon,subscriptions
+SAV-2025011401,Roundup Save,transfers
+CARD-2025011601,Brewcraft Supplies,fun
+SAV-2025011501,B&H Photo,shopping
+CARD-2025011602,DSW,shopping
+CARD-2025011603,Credit Card Repayment,transfers
+CARD-2025011701,Golden Lotus Mart,groceries
+CARD-2025011702,Rosalind,eating out
+SAV-2025011601,Credit Card Transfer,transfers
+CARD-2025011703,Shell,transport
+CARD-2025012001,Amazon,shopping
+CARD-2025012002,International Transaction Fee,fees
+CARD-2025011901,Crunchy Bakers,eating out
+CARD-2025011902,Fair Town,eating out
+SAV-2025011801,Roundup Save,transfers
+CARD-2025012003,Sightglass Coffee,coffee
+CARD-2025012004,B&H Photo,shopping
+CARD-2025012005,Blue Bottle Coffee,coffee
+CARD-2025012101,Shell,transport
+CARD-2025012102,Shell,transport
+CARD-2025012103,Uber Eats,takeaway
+CARD-2025012301,Roamer Fuel,transport
+CARD-2025012302,Sandbar Deli,eating out
+CARD-2025012303,Target Grocery,groceries
+CARD-2025012401,Target Grocery,groceries
+CARD-2025012402,Mint Mobile,bills
+CARD-2025012601,Blue Bottle Coffee,coffee
+CARD-2025012701,Yumi B,takeaway
+CARD-2025012801,Northgate Brewing Co,eating out
+CARD-2025012802,Itch.io,fun
+SAV-2025012601,Roundup Save,transfers
+CARD-2025012702,Blue Bottle Coffee,coffee
+CARD-2025012803,Shell,transport
+CARD-2025012804,Quick Plate,eating out
+CARD-2025012901,Adobe,subscriptions
+SAV-2025012701,Brickshop,shopping
+CARD-2025012805,Weekly Grind Coffee,coffee
+CARD-2025012806,Credit Card Repayment,transfers
+CARD-2025012902,West Elm,shopping
+CARD-2025012903,Taberna,eating out
+CARD-2025012904,Frankie's Ice Cream,takeaway
+CARD-2025012905,Hugo Marsden,health
+SAV-2025012801,Credit Card Transfer,transfers
+CARD-2025013001,Brewcraft Supplies,fun
+CARD-2025013002,Staples,shopping
+CARD-2025013003,Pressed Juicery,takeaway
+CARD-2025013004,The Home Depot,shopping
+CARD-2025013005,T-Mobile,bills
+CARD-2025013006,Blue Bottle Coffee,coffee
+CARD-2025013101,Trader Joe's,groceries
+CARD-2025013102,Golden Lotus Mart,groceries
+CARD-2025013103,Brewcraft Supplies,fun
+CARD-2025013104,Brewcraft Supplies,fun
+CARD-2025013105,Spotify,subscriptions
+CARD-2025013106,Reverb,shopping
+CARD-2025013107,Reverb,shopping
+CARD-2025013108,Reverb,shopping
+SAV-2025013101,Pacific Studio Labs,income
+CARD-2025020201,Lantern and Lark,coffee
+CARD-2025020301,Adafruit,shopping
+CARD-2025020202,Credit Card Repayment,transfers
+CARD-2025020302,Newegg,shopping
+CARD-2025020303,Big Kid Donuts,takeaway
+CARD-2025020304,Stonefly Brewing,eating out
+SAV-2025020201,Credit Card Transfer,transfers
+SAV-2025020202,Bank Interest,income
+SAV-2025020203,IRS Tax Withholding,fees
+CARD-2025020401,Shell,transport
+CARD-2025020402,Etsy,shopping
+CARD-2025020403,International Transaction Fee,fees
+SAV-2025020301,Friend C,rent
+CARD-2025020404,Newegg,shopping
+CARD-2025020501,Cafe Lumen,coffee
+CARD-2025020502,Adafruit,shopping
+CARD-2025020503,Quick Plate,eating out
+CARD-2025020504,The Home Depot,shopping
+CARD-2025020601,AMC Theatres,fun
+CARD-2025020602,Bayleaf Gelato,takeaway
+CARD-2025020701,Brightpath,subscriptions
+CARD-2025020603,Reverb,shopping
+CARD-2025020702,Shell,transport
+CARD-2025020703,Plain Sailing,shopping
+CARD-2025020704,Frankie's Ice Cream,takeaway
+SAV-2025020601,Rent,rent
+CARD-2025020705,Credit Card Repayment,transfers
+CARD-2025020801,Lantern and Lark,coffee
+CARD-2025020802,B&H Photo,shopping
+CARD-2025020803,Trader Joe's,groceries
+CARD-2025020804,Puget Sound Energy,bills
+SAV-2025020701,Credit Card Transfer,transfers
+SAV-2025020801,Investment Direct Debit,savings
+CARD-2025021101,Amazon,shopping
+CARD-2025021102,International Transaction Fee,fees
+CARD-2025021103,Amazon,shopping
+CARD-2025021104,International Transaction Fee,fees
+CARD-2025021105,Maison Tove,coffee
+CARD-2025021201,Otter Bay Ice Cream,takeaway
+SAV-2025021001,Fidelity 401(k),savings
+SAV-2025021101,Roundup Save,transfers
+CARD-2025021301,Golden Lotus Mart,groceries
+CARD-2025021302,Tonkatsu Corner,eating out
+CARD-2025021303,Shell,transport
+CARD-2025021304,Saffrona,eating out
+CARD-2025021305,Shoyu Shoyu,eating out
+CARD-2025021306,Puget Sound Energy,bills
+CARD-2025021401,The Copper Kites,shopping
+CARD-2025021402,International Transaction Fee,fees
+CARD-2025021307,Credit Card Repayment,transfers
+CARD-2025021403,Google One,subscriptions
+SAV-2025021301,Roundup Save,transfers
+SAV-2025021302,Credit Card Transfer,transfers
+SAV-2025021303,Friend A,shopping
+CARD-2025021404,Blue Bottle Coffee,coffee
+CARD-2025021501,Uber Eats,takeaway
+CARD-2025021502,Uber One,subscriptions
+CARD-2025021503,Patreon,subscriptions
+SAV-2025021401,Roundup Save,transfers
+CARD-2025021601,Lantern and Lark,coffee
+CARD-2025021602,Cafe Ashford,coffee
+CARD-2025021701,Hugo Marsden,health
+CARD-2025021702,Waterfront Pavilion,eating out
+CARD-2025021703,Crumb and Co Bakery,eating out
+CARD-2025021801,Uber Eats,takeaway
+CARD-2025021802,Target,shopping
+CARD-2025021803,Washington DOL,transport
+SAV-2025021801,Roundup Save,transfers
+CARD-2025021901,Shell,transport
+CARD-2025021902,Trader Joe's,groceries
+CARD-2025022001,Target,shopping
+CARD-2025022101,Mint Mobile,bills
+CARD-2025022102,Credit Card Repayment,transfers
+CARD-2025022201,Target,shopping
+CARD-2025022202,Sightglass Coffee,coffee
+SAV-2025022101,Credit Card Transfer,transfers
+SAV-2025022102,Friend B,income
+CARD-2025022601,Pixel Palace Arcade,fun
+CARD-2025022602,Saffrona,eating out
+CARD-2025022603,Adobe,subscriptions
+SAV-2025022401,Roundup Save,transfers
+CARD-2025022501,Good Dough Bagels,eating out
+CARD-2025022604,Morning Loaf,eating out
+CARD-2025022605,Quayside Car Park,transport
+CARD-2025022606,Keystone Credit Card Fee,fees
+CARD-2025022607,Fadeworks Barber Shop,shopping
+SAV-2025022501,Roundup Save,transfers
+CARD-2025022701,Alaska Airlines,travel
+CARD-2025022801,Trader Joe's,groceries
+CARD-2025022802,Golden Lotus Mart,groceries
+CARD-2025030101,Relay,shopping
+CARD-2025030102,Ghirardelli,groceries
+CARD-2025030103,T-Mobile,bills
+CARD-2025030201,Good Dough Bagels,eating out
+CARD-2025030202,Jade Tea House,takeaway
+SAV-2025022801,Roundup Save,transfers
+SAV-2025022802,Pacific Studio Labs,income
+CARD-2025030203,National Geographic,subscriptions
+CARD-2025030301,Target,shopping
+SAV-2025030201,Bank Interest,income
+SAV-2025030202,IRS Tax Withholding,fees
+CARD-2025030302,Alaska Airlines,travel
+CARD-2025030701,Shell,transport
+SAV-2025030601,Rent,rent
+CARD-2025030702,Credit Card Repayment,transfers
+CARD-2025030901,Brightpath,subscriptions
+SAV-2025030701,Credit Card Transfer,transfers
+CARD-2025030902,Kemuning,eating out
+CARD-2025030903,Sound Transit Parking,transport
+CARD-2025030904,Spotify,subscriptions
+SAV-2025030801,Investment Direct Debit,savings
+CARD-2025030905,Grain & Silver,eating out
+CARD-2025030906,Grain & Silver,eating out
+CARD-2025031001,Brewcraft Supplies,fun
+CARD-2025031002,Sightglass Coffee,coffee
+CARD-2025031003,Lowe's,shopping
+CARD-2025031004,The Home Depot,shopping
+SAV-2025030901,Roundup Save,transfers
+SAV-2025030902,Roundup Save,transfers
+CARD-2025031101,Kimpton Hotels,travel
+CARD-2025031102,The Home Depot,shopping
+CARD-2025031103,Keystone Credit Card Fee,fees
+CARD-2025031301,Shell,transport
+CARD-2025031302,Puget Sound Energy,bills
+CARD-2025031401,Blue Bottle Coffee,coffee
+CARD-2025031402,Google One,subscriptions
+CARD-2025031501,Uber One,subscriptions
+CARD-2025031502,Blue Bottle Coffee,coffee
+CARD-2025031503,Patreon,subscriptions
+CARD-2025031504,Credit Card Repayment,transfers
+CARD-2025031601,Blue Bottle Coffee,coffee
+CARD-2025031602,Quick Plate,eating out
+SAV-2025031501,Credit Card Transfer,transfers
+CARD-2025031603,Weekly Grind Coffee,coffee
+SAV-2025031801,Roundup Save,transfers
+CARD-2025032101,Trader Joe's,groceries
+CARD-2025032102,Mint Mobile,bills
+CARD-2025032103,Shell,transport
+CARD-2025032104,Blue Bottle Coffee,coffee
+CARD-2025032201,Uber Eats,takeaway
+CARD-2025032202,Credit Card Repayment,transfers
+CARD-2025032301,Lanternlight Books,shopping
+SAV-2025032201,Roundup Save,transfers
+SAV-2025032202,Credit Card Transfer,transfers
+CARD-2025032501,Pepitos Ice Cream,takeaway
+CARD-2025032701,Grain & Silver,eating out
+CARD-2025032801,Shell,transport
+CARD-2025032802,Shake Shack,takeaway
+CARD-2025032803,Blue Bottle Coffee,coffee
+CARD-2025032804,Quick Plate,eating out
+CARD-2025032805,Cafe Lumen,coffee
+CARD-2025032806,Cafe Lumen,coffee
+CARD-2025032807,Plain Timber Furniture,shopping
+CARD-2025032808,The Home Depot,shopping
+CARD-2025032901,Lenscraft,shopping
+CARD-2025032902,Adobe,subscriptions
+CARD-2025032809,Credit Card Repayment,transfers
+CARD-2025032903,CedarGate Brewery,eating out
+CARD-2025032904,CedarGate Brewery,eating out
+CARD-2025032905,CedarGate Brewery,eating out
+CARD-2025032906,CedarGate Brewery,eating out
+CARD-2025032907,CedarGate Brewery,eating out
+CARD-2025032908,T-Mobile,bills
+SAV-2025032801,Credit Card Transfer,transfers
+CARD-2025033001,Blue Bottle Coffee,coffee
+SAV-2025032901,Internal Transfer,transfers
+CARD-2025033101,Shell,transport
+CARD-2025033102,Bapsang,eating out
+CARD-2025033103,Blue Bottle Coffee,coffee
+CARD-2025033104,Credit Card Repayment,transfers
+SAV-2025033001,Credit Card Transfer,transfers
+CARD-2025040201,Brightpath,subscriptions
+SAV-2025033101,Pacific Studio Labs,income
+CARD-2025040202,Tonkatsu Corner,eating out
+CARD-2025040301,Shell,transport
+CARD-2025040302,Shell,transport
+CARD-2025040303,Blue Bottle Coffee,coffee
+CARD-2025040304,Sandbar Deli,eating out
+CARD-2025040305,Target Grocery,groceries
+SAV-2025040201,Bank Interest,income
+SAV-2025040202,IRS Tax Withholding,fees
+CARD-2025040401,Spotify,subscriptions
+SAV-2025040301,Rent,rent
+CARD-2025040501,Lantern and Lark,coffee
+CARD-2025040701,Google Services,subscriptions
+SAV-2025040501,Investment Direct Debit,savings
+CARD-2025040702,Blue Bottle Coffee,coffee
+SAV-2025040601,Roundup Save,transfers
+CARD-2025040801,Golden Lotus Mart,groceries
+CARD-2025040802,Alaska Airlines,travel
+CARD-2025040803,Alaska Airlines,travel
+CARD-2025040804,Impark,transport
+CARD-2025040805,Blue Bottle Coffee,coffee
+CARD-2025040806,Credit Card Repayment,transfers
+SAV-2025040701,Credit Card Transfer,transfers
+CARD-2025040807,Grain & Silver,eating out
+CARD-2025040901,Blue Bottle Coffee,coffee
+CARD-2025040902,Texaco,transport
+SAV-2025040901,Roundup Save,transfers
+CARD-2025041201,Grain & Silver,eating out
+CARD-2025041202,Trader Joe's,groceries
+CARD-2025041203,Sightglass Coffee,coffee
+CARD-2025041204,Blue Bottle Coffee,coffee
+CARD-2025041301,Brigantia Books,shopping
+CARD-2025041205,Credit Card Repayment,transfers
+CARD-2025041302,Shell,transport
+SAV-2025041201,Credit Card Transfer,transfers
+CARD-2025041303,Blue Bottle Coffee,coffee
+CARD-2025041501,Uber One,subscriptions
+CARD-2025041502,Gong Cha,takeaway
+CARD-2025041503,Greystone Medical Centre,health
+CARD-2025041504,Whole Foods Market,groceries
+CARD-2025041505,Lowe's,shopping
+CARD-2025041506,Parkside Bistro,eating out
+CARD-2025041507,Patreon,subscriptions
+SAV-2025041401,Roundup Save,transfers
+CARD-2025041601,Blue Bottle Coffee,coffee
+CARD-2025041701,Puget Sound Energy,bills
+SAV-2025041601,Friend A,gifts
+CARD-2025041702,Blue Bottle Coffee,coffee
+CARD-2025041703,Credit Card Repayment,transfers
+CARD-2025041801,Bapsang,eating out
+CARD-2025041802,Mint Mobile,bills
+SAV-2025041701,Physio,health
+SAV-2025041702,Credit Card Transfer,transfers
+CARD-2025041803,Blue Bottle Coffee,coffee
+CARD-2025041804,Credit Card Repayment,transfers
+SAV-2025041801,Credit Card Transfer,transfers
+CARD-2025041901,Blue Bottle Coffee,coffee
+CARD-2025042001,Quick Plate,eating out
+CARD-2025042101,Frankie's Ice Cream,takeaway
+SAV-2025042001,FXPay,savings
+CARD-2025042301,Mortar,eating out
+CARD-2025042302,Riverview Hotel,travel
+CARD-2025042303,Kumo Kumo,eating out
+CARD-2025042401,Golden Lotus Mart,groceries
+CARD-2025042402,CVS Pharmacy,health
+CARD-2025042501,Gong Cha,takeaway
+CARD-2025042502,Cafe Lumen,coffee
+CARD-2025042503,Shell,transport
+CARD-2025042701,Sightglass Coffee,coffee
+CARD-2025042702,Little Fern Baby,gifts
+CARD-2025042703,Shake Shack,takeaway
+CARD-2025042801,Adobe,subscriptions
+CARD-2025042704,Blue Bottle Coffee,coffee
+CARD-2025042802,Sightglass Coffee,coffee
+CARD-2025042901,Japan Mart,groceries
+CARD-2025042902,Costco Wholesale,groceries
+CARD-2025042903,Spotify,subscriptions
+CARD-2025043001,Cafe Lumen,coffee
+CARD-2025050101,Brightpath,subscriptions
+SAV-2025042901,Roundup Save,transfers
+CARD-2025050102,T-Mobile,bills
+SAV-2025043001,Pacific Studio Labs,income
+SAV-2025050101,Rent,rent
+CARD-2025050201,Blue Bottle Coffee,coffee
+CARD-2025050301,Shell,transport
+CARD-2025050302,Inkblot Books,shopping
+CARD-2025050303,Booking.com,travel
+SAV-2025050201,Bank Interest,income
+SAV-2025050202,IRS Tax Withholding,fees
+SAV-2025050301,Investment Direct Debit,savings
+CARD-2025050501,Ghirardelli,groceries
+CARD-2025050502,Relay,shopping
+CARD-2025050601,Good Dough Bagels,eating out
+CARD-2025050901,Uber One,subscriptions
+CARD-2025051001,Washington DOL,transport
+CARD-2025051101,Shell,transport
+CARD-2025051102,Blue Bottle Coffee,coffee
+CARD-2025051201,Grain & Silver,eating out
+CARD-2025051202,Shutter Depot,shopping
+CARD-2025051203,Blue Bottle Coffee,coffee
+CARD-2025051301,Blue Bottle Coffee,coffee
+CARD-2025051401,Google One,subscriptions
+CARD-2025051501,Patreon,subscriptions
+CARD-2025051502,Puget Sound Energy,bills
+CARD-2025051503,Namu Namu,eating out
+CARD-2025051601,Quick Plate,eating out
+CARD-2025051602,Steel Roasting Co,coffee
+CARD-2025051603,Mint Mobile,bills
+CARD-2025051604,Trader Joe's,groceries
+CARD-2025051605,Shell,transport
+CARD-2025051606,Trader Joe's,groceries
+CARD-2025051607,Shell,transport
+CARD-2025051701,Greystone Coffee Roasters,coffee
+CARD-2025052001,Blue Bottle Coffee,coffee
+CARD-2025052002,Credit Card Repayment,transfers
+SAV-2025052001,Credit Card Transfer,transfers
+CARD-2025052201,Blue Bottle Coffee,coffee
+CARD-2025052401,Northgate Brewing Co,eating out
+CARD-2025052402,Mobil,transport
+CARD-2025052403,Stripes Uptown,shopping
+CARD-2025052404,Sound Transit Parking,transport
+CARD-2025052405,Cafe Lumen,coffee
+CARD-2025052406,Golden Lotus Mart,groceries
+CARD-2025052501,Uber Eats,takeaway
+CARD-2025052502,Sightglass Coffee,coffee
+CARD-2025052503,REI,shopping
+CARD-2025052504,Sephora,shopping
+CARD-2025052505,Brisket & Bagel,eating out
+SAV-2025052401,Monarch Acoustic,shopping
+CARD-2025052601,Blue Bottle Coffee,coffee
+CARD-2025052701,Spotify,subscriptions
+CARD-2025052901,Adobe,subscriptions
+CARD-2025052902,Shell,transport
+CARD-2025052903,T-Mobile,bills
+CARD-2025052904,Blue Bottle Coffee,coffee
+SAV-2025052901,Rent,rent
+CARD-2025053101,Blue Bottle Coffee,coffee
+SAV-2025053001,Pacific Studio Labs,income
+CARD-2025060101,Cafe Lumen,coffee
+CARD-2025060102,Cafe Lumen,coffee
+CARD-2025060103,Tiny Blessings,gifts
+SAV-2025053101,Investment Direct Debit,savings
+CARD-2025060104,Crumb and Co Bakery,eating out
+CARD-2025060401,Brightpath,subscriptions
+SAV-2025060201,Bank Interest,income
+SAV-2025060202,IRS Tax Withholding,fees
+CARD-2025060301,Credit Card Repayment,transfers
+CARD-2025060402,Shell,transport
+CARD-2025060403,Grain & Silver,eating out
+CARD-2025060404,Sweetwater,shopping
+CARD-2025060405,Uber One,subscriptions
+SAV-2025060301,Credit Card Transfer,transfers
+CARD-2025060406,Blue Bottle Coffee,coffee
+CARD-2025060407,Credit Card Repayment,transfers
+CARD-2025060501,Rubber Duckling,shopping
+SAV-2025060401,Physio,health
+SAV-2025060402,Credit Card Transfer,transfers
+CARD-2025060601,IRS,fees
+CARD-2025060801,Brewcraft Supplies,fun
+CARD-2025060802,Lucia,eating out
+CARD-2025060803,Good Company,eating out
+CARD-2025060804,Odeonix,fun
+CARD-2025061101,Sweetwater,shopping
+CARD-2025061201,Amazon,shopping
+CARD-2025061202,International Transaction Fee,fees
+CARD-2025061102,Midtown Car Park,transport
+CARD-2025061203,Sightglass Coffee,coffee
+CARD-2025061204,Shake Shack,takeaway
+CARD-2025061205,Puget Sound Energy,bills
+CARD-2025061301,Mint Mobile,bills
+CARD-2025061302,Credit Card Repayment,transfers
+CARD-2025061401,Big Buns Smashed Burgers,takeaway
+CARD-2025061402,B&H Photo,shopping
+CARD-2025061403,Google One,subscriptions
+SAV-2025061301,Roundup Save,transfers
+SAV-2025061302,Credit Card Transfer,transfers
+CARD-2025061501,Patreon,subscriptions
+CARD-2025061502,Blue Bottle Coffee,coffee
+CARD-2025061601,Uber Eats,takeaway
+CARD-2025061701,The Magistrate,eating out
+CARD-2025061702,Trader Joe's,groceries
+CARD-2025061703,IRS Processing Fee,fees
+CARD-2025061801,Little Fern Baby,gifts
+CARD-2025061901,Orbit Roasters,coffee
+CARD-2025061802,Reverb,shopping
+CARD-2025061902,Shell,transport
+CARD-2025061903,Blue Bottle Coffee,coffee
+CARD-2025062001,Blue Bottle Coffee,coffee
+CARD-2025062101,One Medical,health
+CARD-2025062102,Gelaterio,takeaway
+CARD-2025062103,Oswald's Bar,eating out
+CARD-2025062201,Weekender,eating out
+CARD-2025062202,Credit Card Repayment,transfers
+CARD-2025062301,Adafruit,shopping
+CARD-2025062302,Japan Mart,groceries
+CARD-2025062303,Costco Wholesale,groceries
+CARD-2025062304,Good Company,eating out
+CARD-2025062305,Seaspray Cafe,coffee
+SAV-2025062201,Roundup Save,transfers
+SAV-2025062202,Credit Card Transfer,transfers
+SAV-2025062203,Roundup Save,transfers
+CARD-2025062306,Shell,transport
+CARD-2025062401,USPS,shopping
+CARD-2025062402,Halden USA,shopping
+CARD-2025062403,Credit Card Repayment,transfers
+CARD-2025062501,Whole Foods Market,groceries
+SAV-2025062401,Credit Card Transfer,transfers
+CARD-2025062601,Lumiere Cinemas,fun
+CARD-2025062602,Sound Transit Parking,transport
+CARD-2025062701,Saint Bramwell Brewing,eating out
+CARD-2025062702,Saint Bramwell Brewing,eating out
+CARD-2025062703,PDX Express,shopping
+CARD-2025062704,Greystone Coffee Roasters,coffee
+CARD-2025062705,Adafruit,shopping
+CARD-2025062801,KPL Elm Rd,shopping
+CARD-2025062802,Aalto,eating out
+CARD-2025062803,Adobe,subscriptions
+SAV-2025062601,Rent,rent
+SAV-2025062602,Roundup Save,transfers
+CARD-2025062706,Credit Card Repayment,transfers
+CARD-2025062804,Brewcraft Supplies,fun
+CARD-2025070101,Harbour Cooking School,fun
+CARD-2025070102,Lan Seafood,eating out
+CARD-2025070103,Sightglass Coffee,coffee
+SAV-2025062701,Credit Card Transfer,transfers
+CARD-2025062805,Blue Bottle Coffee,coffee
+CARD-2025062806,Blue Bottle Coffee,coffee
+CARD-2025062901,Shell,transport
+CARD-2025062902,T-Mobile,bills
+CARD-2025063001,Amazon,shopping
+CARD-2025063002,International Transaction Fee,fees
+SAV-2025062801,Investment Direct Debit,savings
+CARD-2025063003,Sightglass Coffee,coffee
+CARD-2025063004,Blue Bottle Coffee,coffee
+CARD-2025063005,Blue Bottle Coffee,coffee
+CARD-2025070104,Sightglass Coffee,coffee
+CARD-2025070105,Adafruit,shopping
+CARD-2025070106,Quick Plate,eating out
+CARD-2025070107,Sound Transit Parking,transport
+CARD-2025070108,Sightglass Coffee,coffee
+CARD-2025070201,Brightpath,subscriptions
+SAV-2025063001,Pacific Studio Labs,income
+CARD-2025070109,Good Company,eating out
+CARD-2025070202,Aesop,shopping
+CARD-2025070203,Keystone Credit Card Fee,fees
+CARD-2025070301,Sightglass Coffee,coffee
+CARD-2025070302,Lantern and Lark,coffee
+CARD-2025070501,Adafruit,shopping
+SAV-2025070201,Internal Transfer,transfers
+SAV-2025070202,Bank Interest,income
+SAV-2025070203,IRS Tax Withholding,fees
+CARD-2025070303,Shell,transport
+CARD-2025070304,Blue Bottle Coffee,coffee
+CARD-2025070401,Golden Lotus Mart,groceries
+CARD-2025070402,Sightglass Coffee,coffee
+CARD-2025070403,Uber One,subscriptions
+CARD-2025070404,Blue Bottle Coffee,coffee
+CARD-2025070502,Spotify,subscriptions
+CARD-2025070503,Sightglass Coffee,coffee
+CARD-2025070504,Total Wine & More,groceries
+CARD-2025070505,Trader Joe's,groceries
+CARD-2025070506,Golden Lotus Mart,groceries
+CARD-2025070507,Sightglass Coffee,coffee
+CARD-2025070508,Blue Bottle Coffee,coffee
+CARD-2025070509,Credit Card Repayment,transfers
+CARD-2025070601,Shell,transport
+CARD-2025070602,Sightglass Coffee,coffee
+CARD-2025070603,Canteena,eating out
+SAV-2025070501,Credit Card Transfer,transfers
+CARD-2025070701,Sandbar Deli,eating out
+CARD-2025070702,The Millhouse,eating out
+SAV-2025070601,Internal Transfer,transfers
+CARD-2025070801,Sightglass Coffee,coffee
+SAV-2025070701,Roundup Save,transfers
+CARD-2025070802,Blue Bottle Coffee,coffee
+CARD-2025070901,Sightglass Coffee,coffee
+CARD-2025070902,Fenn,eating out
+CARD-2025070903,Sightglass Coffee,coffee
+SAV-2025070801,Roundup Save,transfers
+CARD-2025070904,Blue Bottle Coffee,coffee
+CARD-2025071001,Uber Eats,takeaway
+CARD-2025071101,Amazon,shopping
+CARD-2025071102,International Transaction Fee,fees
+CARD-2025071103,Salt Spray Bakery,eating out
+CARD-2025071104,Bridie O'Connell's Irish Inn,eating out
+CARD-2025071105,Mint Mobile,bills
+CARD-2025071201,Shell,transport
+CARD-2025071202,Quayside Car Park,transport
+SAV-2025071101,Internal Transfer,transfers
+CARD-2025071203,Blue Bottle Coffee,coffee
+CARD-2025071301,Spares Hub,transport
+CARD-2025071302,Spares Hub,transport
+CARD-2025071303,Blue Bottle Coffee,coffee
+CARD-2025071401,Google One,subscriptions
+CARD-2025071402,Sightglass Coffee,coffee
+CARD-2025071403,Uber,transport
+CARD-2025071404,Sound Transit Parking,transport
+CARD-2025071501,Uber,transport
+CARD-2025071405,Blue Bottle Coffee,coffee
+CARD-2025071502,Patreon,subscriptions
+SAV-2025071401,Roundup Save,transfers
+CARD-2025071503,Credit Card Repayment,transfers
+CARD-2025071504,Shell,transport
+CARD-2025071601,CedarGate Brewery,eating out
+CARD-2025071602,Fadeworks Barber Shop,shopping
+CARD-2025071603,Sound Transit,fees
+SAV-2025071501,Roundup Save,transfers
+SAV-2025071502,Credit Card Transfer,transfers
+SAV-2025071503,Roundup Save,transfers
+CARD-2025071701,Washington DOL,transport
+CARD-2025071702,Puget Sound Energy,bills
+CARD-2025071801,Lantern and Lark,coffee
+CARD-2025071802,Blue Bottle Coffee,coffee
+SAV-2025071801,FXPay,savings
+CARD-2025071901,Blue Bottle Coffee,coffee
+CARD-2025071902,Weekender,eating out
+CARD-2025072001,Studio Nova,shopping
+CARD-2025072101,Brightpath,subscriptions
+CARD-2025072002,Credit Card Repayment,transfers
+CARD-2025072102,Shell,transport
+CARD-2025072103,Sweetwater,shopping
+CARD-2025072104,Sightglass Coffee,coffee
+SAV-2025072001,Marketplace Purchase,shopping
+SAV-2025072002,Credit Card Transfer,transfers
+CARD-2025072105,Blue Bottle Coffee,coffee
+CARD-2025072201,Trader Joe's,groceries
+CARD-2025072202,Lantern and Lark,coffee
+SAV-2025072201,Reverb Vintage Keys,shopping
+CARD-2025072301,Blue Bottle Coffee,coffee
+CARD-2025072401,Sightglass Coffee,coffee
+CARD-2025072402,Weekender,eating out
+CARD-2025072501,Micro Center,shopping
+CARD-2025072502,REI,shopping
+CARD-2025072503,Vantec,shopping
+CARD-2025072504,Greta Taps,eating out
+CARD-2025072505,Good Company,eating out
+SAV-2025072401,Rent,rent
+CARD-2025072506,Shell,transport
+CARD-2025072601,Trader Joe's,groceries
+CARD-2025072602,Credit Card Repayment,transfers
+SAV-2025072601,Investment Direct Debit,savings
+SAV-2025072602,Credit Card Transfer,transfers
+CARD-2025072701,Blue Bottle Coffee,coffee
+CARD-2025072901,Adobe,subscriptions
+SAV-2025072901,FXPay,savings
+CARD-2025073001,Blue Bottle Coffee,coffee
+CARD-2025073101,T-Mobile,bills
+CARD-2025073102,Sightglass Coffee,coffee
+CARD-2025073103,Impark,transport
+CARD-2025073104,CedarGate Brewery,eating out
+CARD-2025073105,CedarGate Brewery,eating out
+CARD-2025080101,CedarGate Brewery,eating out
+CARD-2025080102,CedarGate Brewery,eating out
+SAV-2025073101,Pacific Studio Labs,income
+SAV-2025073102,Marketplace Audio Gear,shopping
+CARD-2025080201,Credit Card Repayment,transfers
+CARD-2025080301,Little Fern Baby,gifts
+CARD-2025080302,Trader Joe's,groceries
+SAV-2025080201,Bank Interest,income
+SAV-2025080202,IRS Tax Withholding,fees
+SAV-2025080203,Credit Card Transfer,transfers
+CARD-2025080401,Spotify,subscriptions
+CARD-2025080402,Uber One,subscriptions
+SAV-2025080301,Internal Transfer,transfers
+CARD-2025080403,Shell,transport
+CARD-2025080404,Blue Bottle Coffee,coffee
+CARD-2025080501,Harbour Arena,fun
+CARD-2025080502,Hoshi Ramen,eating out
+CARD-2025080701,Blue Bottle Coffee,coffee
+CARD-2025080801,Mint Mobile,bills
+CARD-2025080802,Mod Pizza,takeaway
+CARD-2025080901,Morning Loaf,eating out
+CARD-2025080902,Lucia,eating out
+CARD-2025081101,Squarespace,subscriptions
+CARD-2025081001,Weekender,eating out
+CARD-2025081201,Adafruit,shopping
+CARD-2025081202,Sweetwater,shopping
+CARD-2025081203,The Home Depot,shopping
+CARD-2025081204,Trader Joe's,groceries
+CARD-2025081301,Squarespace,subscriptions
+SAV-2025081101,Monarch Acoustic,shopping
+CARD-2025081205,Blue Bottle Coffee,coffee
+SAV-2025081201,Reverb Recorder,shopping
+CARD-2025081401,Google One,subscriptions
+CARD-2025081402,Puget Sound Energy,bills
+CARD-2025081403,Shell,transport
+CARD-2025081404,Blue Bottle Coffee,coffee
+CARD-2025081405,Credit Card Repayment,transfers
+CARD-2025081501,Patreon,subscriptions
+SAV-2025081401,Credit Card Transfer,transfers
+CARD-2025081502,Blue Bottle Coffee,coffee
+CARD-2025081601,Sound Transit Parking,transport
+CARD-2025081701,Lantern and Lark,coffee
+CARD-2025081801,Blue Bottle Coffee,coffee
+SAV-2025081801,Roundup Save,transfers
+CARD-2025081901,Kumo Kumo,eating out
+CARD-2025081902,Cheeky Lad Deli & Eatery,eating out
+CARD-2025082001,Grain & Silver,eating out
+CARD-2025082002,Credit Card Repayment,transfers
+SAV-2025081901,Credit Card Transfer,transfers
+SAV-2025081902,Reverb Synth,shopping
+CARD-2025082201,US Government Services,fees
+SAV-2025082101,Rent,rent
+CARD-2025082301,Lantern and Lark,coffee
+CARD-2025082302,Blue Bottle Coffee,coffee
+CARD-2025082501,Brightpath,subscriptions
+SAV-2025082301,Investment Direct Debit,savings
+CARD-2025082601,Blue Bottle Coffee,coffee
+CARD-2025082701,Shell,transport
+CARD-2025082801,Tiny Blessings,gifts
+CARD-2025082802,Sound Transit Parking,transport
+CARD-2025082803,Doubleback Beer,eating out
+CARD-2025082804,Weekender,eating out
+CARD-2025082805,Weekender,eating out
+CARD-2025082806,Puget Sound Energy,bills
+CARD-2025082901,Adobe,subscriptions
+CARD-2025082807,Trader Joe's,groceries
+CARD-2025082902,T-Mobile,bills
+CARD-2025082903,Greystone Coffee Roasters,coffee
+CARD-2025083001,Spotify,subscriptions
+SAV-2025082901,Pacific Studio Labs,income
+CARD-2025083002,Credit Card Repayment,transfers
+SAV-2025083001,Credit Card Transfer,transfers
+SAV-2025083002,Fidelity 401(k),savings
+CARD-2025090101,US State Department,travel
+SAV-2025083101,Roundup Save,transfers
+SAV-2025083102,Internal Transfer,transfers
+CARD-2025090201,Sightglass Coffee,coffee
+SAV-2025090201,Bank Interest,income
+SAV-2025090202,IRS Tax Withholding,fees
+CARD-2025090401,Sightglass Coffee,coffee
+CARD-2025090402,Harvest Cheese and Grocer,groceries
+CARD-2025090403,Uber One,subscriptions
+CARD-2025090501,Adafruit,shopping
+CARD-2025090404,Blue Bottle Coffee,coffee
+CARD-2025090502,Uber Eats,takeaway
+CARD-2025090503,Sightglass Coffee,coffee
+CARD-2025090504,Mint Mobile,bills
+CARD-2025090505,Blue Bottle Coffee,coffee
+CARD-2025090601,Otter Bay Ice Cream,takeaway
+CARD-2025090602,Sightglass Coffee,coffee
+CARD-2025090701,Northgate Brewing Co,eating out
+CARD-2025090801,Shake Shack,takeaway
+CARD-2025091001,Fernleaf Florist,gifts
+SAV-2025090901,Roundup Save,transfers
+CARD-2025091201,B&H Photo,shopping
+CARD-2025091301,Adafruit,shopping
+CARD-2025091302,Trader Joe's,groceries
+CARD-2025091401,Google One,subscriptions
+CARD-2025091501,Patreon,subscriptions
+CARD-2025091601,Aalto,eating out
+CARD-2025091602,Vesta,eating out
+CARD-2025091502,Blue Bottle Coffee,coffee
+CARD-2025091603,Sightglass Coffee,coffee
+CARD-2025091604,Kumo Kumo,eating out
+CARD-2025091701,Uber Eats,takeaway
+CARD-2025091702,Mortar,eating out
+CARD-2025091703,Macy's,shopping
+CARD-2025091704,Barnes & Noble,shopping
+CARD-2025091705,Weekender,eating out
+SAV-2025091801,Rent,rent
+CARD-2025091901,Blue Bottle Coffee,coffee
+CARD-2025092101,Shell,transport
+SAV-2025092001,Investment Direct Debit,savings
+CARD-2025092201,Spotify,subscriptions
+CARD-2025092202,Credit Card Repayment,transfers
+SAV-2025092201,Credit Card Transfer,transfers
+CARD-2025092301,Blue Bottle Coffee,coffee
+CARD-2025092501,Korean Air,travel
+CARD-2025092401,Blue Bottle Coffee,coffee
+CARD-2025092502,Sightglass Coffee,coffee
+CARD-2025092701,Good Lads,eating out
+CARD-2025092801,Adobe,subscriptions
+CARD-2025092802,Choice Bro,eating out
+CARD-2025100101,Shell,transport
+CARD-2025100102,Sightglass Coffee,coffee
+CARD-2025100103,T-Mobile,bills
+SAV-2025093001,Pacific Studio Labs,income
+CARD-2025100201,Sightglass Coffee,coffee
+CARD-2025100301,CVS Pharmacy,health
+CARD-2025100302,Trader Joe's,groceries
+CARD-2025100303,Sightglass Coffee,coffee
+CARD-2025100304,Sightglass Coffee,coffee
+CARD-2025100305,Mint Mobile,bills
+SAV-2025100201,Bank Interest,income
+SAV-2025100202,IRS Tax Withholding,fees
+CARD-2025100401,Uber One,subscriptions
+CARD-2025100501,Good Dough Bagels,eating out
+CARD-2025100502,Sightglass Coffee,coffee
+CARD-2025100503,Sound Transit Parking,transport
+CARD-2025100504,Keystone Credit Card Fee,fees
+CARD-2025100505,Fadeworks Barber Shop,shopping
+CARD-2025100601,Brightpath,subscriptions
+CARD-2025100506,Tiny Blessings,gifts
+CARD-2025100602,Masala Lane Indian Cuisine,eating out
+CARD-2025100701,Northgate Brewing Co,eating out
+CARD-2025100702,Northgate Brewing Co,eating out
+CARD-2025100703,Northgate Brewing Co,eating out
+CARD-2025100603,Credit Card Repayment,transfers
+CARD-2025100704,Alaska Airlines,travel
+CARD-2025100705,Sightglass Coffee,coffee
+CARD-2025100706,Harvest Deli,eating out
+SAV-2025100601,Credit Card Transfer,transfers
+CARD-2025100801,Seattle City Light,bills
+CARD-2025100802,Shell,transport
+SAV-2025100901,Friend D,travel
+CARD-2025101201,Lantern and Lark,coffee
+CARD-2025101202,Weekender,eating out
+CARD-2025101301,Quayside Car Park,transport
+CARD-2025101302,Grain & Silver,eating out
+CARD-2025101303,Trader Joe's,groceries
+CARD-2025101304,Credit Card Repayment,transfers
+CARD-2025101401,Shell,transport
+CARD-2025101402,Alaska Airlines,travel
+CARD-2025101403,Google One,subscriptions
+SAV-2025101301,Reverb Synth,shopping
+SAV-2025101302,Credit Card Transfer,transfers
+CARD-2025101501,Lantern and Lark,coffee
+CARD-2025101601,Patreon,subscriptions
+SAV-2025101401,Roundup Save,transfers
+CARD-2025101701,Lantern and Lark,coffee
+SAV-2025101601,Rent,rent
+SAV-2025101602,Friend A,gifts
+CARD-2025101801,Sightglass Coffee,coffee
+CARD-2025101802,Credit Card Repayment,transfers
+CARD-2025101803,Alder & Co,shopping
+CARD-2025101804,Fenn,eating out
+CARD-2025101805,Taberna,eating out
+CARD-2025101806,Orzo,eating out
+CARD-2025101901,The Thistle Inn,eating out
+CARD-2025101902,Northgate Brewing Co,eating out
+SAV-2025101701,Credit Card Transfer,transfers
+CARD-2025101807,Credit Card Repayment,transfers
+CARD-2025101903,Micro Center,shopping
+CARD-2025101904,Good Heavens,eating out
+SAV-2025101801,Credit Card Transfer,transfers
+SAV-2025101802,Investment Direct Debit,savings
+CARD-2025102001,Lantern and Lark,coffee
+SAV-2025101901,Car Expense,transport
+CARD-2025102101,Shell,transport
+CARD-2025102201,Lantern and Lark,coffee
+CARD-2025102202,Alaska Airlines,travel
+CARD-2025102203,Ticketmaster,fun
+CARD-2025102204,Credit Card Repayment,transfers
+CARD-2025102301,Lantern and Lark,coffee
+SAV-2025102201,Credit Card Transfer,transfers
+SAV-2025102202,Self Transfer,transfers
+CARD-2025102302,Streetcar Stop Cafe,coffee
+CARD-2025102401,The Corner Store,groceries
+CARD-2025102402,Harbour Catch,takeaway
+CARD-2025102403,Total Wine & More,groceries
+CARD-2025102404,Streetcar Stop Cafe,coffee
+CARD-2025102405,Blue Bottle Coffee,coffee
+CARD-2025102501,Pressed Juicery,takeaway
+CARD-2025102502,Trader Joe's,groceries
+CARD-2025102503,Golden Lotus Mart,groceries
+CARD-2025102504,CVS Pharmacy,health
+CARD-2025102505,AAA,transport
+SAV-2025102401,Roundup Save,transfers
+CARD-2025102801,Trader Joe's,groceries
+CARD-2025102802,Shake Shack,takeaway
+CARD-2025102901,Adobe,subscriptions
+SAV-2025102701,Roundup Save,transfers
+CARD-2025102803,Shell,transport
+CARD-2025102804,Weekender,eating out
+CARD-2025102805,Weekender,eating out
+CARD-2025102902,Trader Joe's,groceries
+CARD-2025102903,Golden Lotus Mart,groceries
+CARD-2025102904,Lantern and Lark,coffee
+CARD-2025102905,Otter Bay Ice Cream,takeaway
+CARD-2025102906,Barkers,shopping
+CARD-2025103001,Stripes Uptown,shopping
+CARD-2025103002,Coffee Marea,coffee
+CARD-2025103003,T-Mobile,bills
+CARD-2025103101,Brightpath,subscriptions
+CARD-2025103102,Sea-Tac Airport Parking,transport
+CARD-2025103103,Stripes Uptown,shopping
+CARD-2025103104,Mint Mobile,bills
+CARD-2025103105,Willow Always Cafe,coffee
+CARD-2025103106,Harvest Deli,eating out
+CARD-2025103107,Credit Card Repayment,transfers
+CARD-2025110101,Daily Essentials,shopping
+CARD-2025110102,Daily Essentials,shopping
+CARD-2025110103,Inkwell Print Centre,shopping
+CARD-2025110104,Shell,transport
+CARD-2025110105,Japan Mart,groceries
+CARD-2025110106,The Home Depot,shopping
+CARD-2025110107,The Home Depot,shopping
+SAV-2025103101,Roundup Save,transfers
+SAV-2025103102,Credit Card Transfer,transfers
+SAV-2025103103,Pacific Studio Labs,income
+CARD-2025110201,Spotify,subscriptions
+CARD-2025110202,Target,shopping
+CARD-2025110203,Walmart,shopping
+CARD-2025110204,Mortar,eating out
+CARD-2025110205,Mortar,eating out
+CARD-2025110206,Impark,transport
+CARD-2025110207,Good Dough Bagels,eating out
+CARD-2025110208,Shell,transport
+CARD-2025110209,Trader Joe's,groceries
+CARD-2025110210,Clipper Lane Salon,shopping
+CARD-2025110301,Meowtea,takeaway
+CARD-2025110401,Northgate Brewing Co,eating out
+CARD-2025110402,Northgate Brewing Co,eating out
+CARD-2025110403,Northgate Brewing Co,eating out
+CARD-2025110404,Northgate Brewing Co,eating out
+SAV-2025110201,Bank Interest,income
+SAV-2025110202,IRS Tax Withholding,fees
+CARD-2025110405,Uber One,subscriptions
+CARD-2025110406,Seattle City Light,bills
+CARD-2025110407,Credit Card Repayment,transfers
+CARD-2025110501,Lime Scooters,transport
+CARD-2025110502,Kobo,eating out
+CARD-2025110503,Trader Joe's,groceries
+SAV-2025110401,Credit Card Transfer,transfers
+CARD-2025110504,Credit Card Repayment,transfers
+CARD-2025110601,The Ink and Paper Box,shopping
+CARD-2025110602,Allianz Travel Insurance,travel
+CARD-2025110603,Best Buy,shopping
+CARD-2025110604,Hanok Roastery,coffee
+SAV-2025110501,Credit Card Transfer,transfers
+CARD-2025110605,Credit Card Repayment,transfers
+CARD-2025110701,Sightglass Coffee,coffee
+CARD-2025110702,Sephora,shopping
+CARD-2025110703,Macy's,shopping
+CARD-2025110704,Chevron,transport
+SAV-2025110601,Self Transfer,transfers
+CARD-2025110801,Gateway Grill,eating out
+CARD-2025110802,B&H Photo,shopping
+SAV-2025110701,Roundup Save,transfers
+CARD-2025111401,Google One,subscriptions
+SAV-2025111301,Rent,rent
+CARD-2025111501,Patreon,subscriptions
+SAV-2025111501,Investment Direct Debit,savings
+CARD-2025112501,Brightpath,subscriptions
+CARD-2025112801,Mint Mobile,bills
+CARD-2025112802,Credit Card Repayment,transfers
+CARD-2025112803,Credit Card Repayment,transfers
+CARD-2025112901,T-Mobile,bills
+CARD-2025112902,Spotify,subscriptions
+CARD-2025112903,Trader Joe's,groceries
+CARD-2025112904,Fernleaf Florist,gifts
+CARD-2025112905,Inkblot Books,shopping
+CARD-2025112906,Weekender,eating out
+SAV-2025112801,Pacific Studio Labs,income
+SAV-2025112802,Credit Card Transfer,transfers
+SAV-2025112803,Credit Card Transfer,transfers
+CARD-2025113001,Inkblot Books,shopping
+CARD-2025120301,Seattle City Light,bills
+CARD-2025120401,Adobe,subscriptions
+SAV-2025120201,Bank Interest,income
+SAV-2025120202,IRS Tax Withholding,fees
+SAV-2025120203,Roundup Save,transfers
+CARD-2025120501,Marigold,eating out
+CARD-2025120502,Knotto,eating out
+CARD-2025120503,Uber,transport
+CARD-2025120504,Little Saints Tap Room,eating out
+CARD-2025120505,Little Saints Tap Room,eating out
+CARD-2025120506,Credit Card Repayment,transfers
+CARD-2025120601,Trader Joe's,groceries
+CARD-2025120602,Sightglass Coffee,coffee
+CARD-2025120603,Velvetline Touring,fun
+CARD-2025120604,Oliver Hartley,shopping
+SAV-2025120501,Brickshop,shopping
+SAV-2025120502,Credit Card Transfer,transfers
+CARD-2025120605,Shell,transport
+CARD-2025120606,Best Buy,shopping
+CARD-2025120801,Lantern and Lark,coffee
+CARD-2025120901,Lantern and Lark,coffee
+CARD-2025120902,The Dice Cupboard,fun
+CARD-2025121001,Lantern and Lark,coffee
+CARD-2025121201,Impark,transport
+SAV-2025121101,Rent,rent
+CARD-2025121202,Credit Card Repayment,transfers
+CARD-2025121301,Kahu Kitchen,eating out
+CARD-2025121302,Kahu Kitchen,eating out
+CARD-2025121303,Sandbar Deli,eating out
+CARD-2025121304,Target Grocery,groceries
+SAV-2025121201,Credit Card Transfer,transfers
+CARD-2025121401,Google One,subscriptions
+CARD-2025121402,Sandhills Market,groceries
+CARD-2025121403,Sandbar Deli,eating out
+CARD-2025121404,Target Grocery,groceries
+SAV-2025121301,Investment Direct Debit,savings
+SAV-2025121302,Roundup Save,transfers
+CARD-2025121501,GoFundMe,gifts
+CARD-2025121502,Sound Transit Parking,transport
+CARD-2025121503,Lantern and Lark,coffee
+CARD-2025121504,Patreon,subscriptions
+SAV-2025121401,Physio,health
+CARD-2025121505,Blue Bottle Coffee,coffee
+CARD-2025121601,Card Depot,fun
+CARD-2025121701,MyVolts,shopping
+SAV-2025121501,Roundup Save,transfers
+CARD-2025121602,Credit Card Repayment,transfers
+CARD-2025121702,Shell,transport
+CARD-2025121703,Sightglass Coffee,coffee
+SAV-2025121601,Credit Card Transfer,transfers
+SAV-2025121602,Self Transfer,transfers
+SAV-2025121603,Holiday Accommodation,travel
+CARD-2025121704,Blue Bottle Coffee,coffee
+CARD-2025121801,Les Schwab Tires,transport
+CARD-2025121901,Sound Transit Parking,transport
+CARD-2025121902,Good Company,eating out
+CARD-2025122001,Credit Card Repayment,transfers
+CARD-2025122101,The Tideway Inn,eating out
+SAV-2025122001,Credit Card Transfer,transfers
+CARD-2025122201,Kiln Coffee,coffee
+CARD-2025122301,Washington State Ferries,transport
+CARD-2025122302,Highland Kitchen,eating out
+CARD-2025122303,Triple Shot,coffee
+CARD-2025122401,The Stonewall Vineyard,eating out
+CARD-2025122601,Synthyard,shopping
+CARD-2025122304,Blue Bottle Coffee,coffee
+CARD-2025122402,Sound Transit Parking,transport
+CARD-2025122403,Sound Transit Parking,transport
+CARD-2025122404,Sightglass Coffee,coffee
+CARD-2025122501,Trader Joe's,groceries
+CARD-2025122502,Weekender,eating out
+CARD-2025122602,Northgate Brewing Co,eating out
+SAV-2025122401,Roundup Save,transfers
+CARD-2025122603,Mint Mobile,bills
+SAV-2025122501,Roundup Save,transfers
+CARD-2025122604,Your Daily Expresso,coffee
+CARD-2025122605,Lakeside Food Supplies,groceries
+CARD-2025122701,Credit Card Repayment,transfers
+CARD-2025122801,Dipped,takeaway
+SAV-2025122701,Credit Card Transfer,transfers
+CARD-2025123101,T-Mobile,bills
+CARD-2025123102,Steel Roasting Co,coffee
+CARD-2025123103,Walgreens,health
+SAV-2025123101,Pacific Studio Labs,income
+SAV-2025123102,Internal Transfer,transfers

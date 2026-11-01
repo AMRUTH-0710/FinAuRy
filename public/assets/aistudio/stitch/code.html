@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Finance Story — Interactive Financial Intelligence</title>
+<!-- Google Fonts: Space Grotesk, Inter, and JetBrains Mono -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with forms and container queries plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              black: '#08090a',
+              dark: '#0f1013',
+              neonYellow: '#eaff00',
+              neonOrange: '#ff4614',
+              orangeDark: '#e53e10',
+              charcoal: '#17171a',
+            }
+          },
+          fontFamily: {
+            mono: ['"JetBrains Mono"', 'monospace'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+            sans: ['"Inter"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Typography & Visual Styles -->
+<style data-purpose="custom-styling">
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #08090a;
+      color: #f3f4f6;
+      overflow-x: hidden;
+    }
+    .font-mono-tech {
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.08em;
+    }
+    .font-heading {
+      font-family: 'Space Grotesk', -apple-system, sans-serif;
+    }
+
+    /* Floating ambient data tile keyframes */
+    @keyframes floatUpDn1 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-42px) rotate(1.5deg); }
+    }
+    @keyframes floatUpDn2 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(38px) rotate(-2deg); }
+    }
+    @keyframes floatUpDn3 {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-30px) scale(1.05); }
+    }
+    @keyframes floatUpDn4 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(48px) rotate(2.5deg); }
+    }
+    @keyframes floatUpDn5 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-52px) rotate(-1.8deg); }
+    }
+
+    .tile-float-1 { animation: floatUpDn1 8s ease-in-out infinite; }
+    .tile-float-2 { animation: floatUpDn2 11s ease-in-out infinite; }
+    .tile-float-3 { animation: floatUpDn3 9.5s ease-in-out infinite; }
+    .tile-float-4 { animation: floatUpDn4 13s ease-in-out infinite; }
+    .tile-float-5 { animation: floatUpDn5 10s ease-in-out infinite; }
+
+    /* Yellow Card Signature Fixed Dimensions */
+    .yellow-hero-card {
+      width: 100%;
+      max-width: 530px;
+      min-width: 320px;
+      min-height: 520px;
+      flex-shrink: 0;
+    }
+
+    /* Orange Flexible Ingestion Card */
+    .orange-ingestion-card {
+      flex: 1 1 540px;
+      min-width: 320px;
+      max-width: 720px;
+    }
+
+    /* Custom subtle scrollbar */
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #08090a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #23252a;
+      border-radius: 2px;
+    }
+
+    /* Drag active glow */
+    .dragover-highlight {
+      border-color: #eaff00 !important;
+      background-color: #000000 !important;
+      box-shadow: 0 0 25px rgba(234, 255, 0, 0.25);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[#08090a] text-neutral-100 flex flex-col justify-between selection:bg-[#eaff00] selection:text-black relative antialiased">
+<!-- BEGIN: AmbientAnimatedBackground -->
+<div aria-hidden="true" class="fixed inset-0 pointer-events-none z-0 overflow-hidden" data-purpose="ambient-canvas-tiles" id="ambient-canvas">
+<!-- Top-left amber & slate tiles -->
+<div class="absolute top-[8%] left-[5%] w-14 h-14 bg-[#543026]/40 border border-amber-600/25 backdrop-blur-[2px] tile-float-1"></div>
+<div class="absolute top-[20%] left-[12%] w-20 h-20 bg-[#3b442b]/35 border border-lime-600/25 tile-float-2"></div>
+<div class="absolute top-[32%] left-[3%] w-12 h-12 bg-slate-800/40 border border-slate-600/30 tile-float-4"></div>
+<!-- Center floating tiles -->
+<div class="absolute top-[12%] left-[36%] w-16 h-16 bg-[#233544]/45 border border-cyan-700/30 tile-float-3"></div>
+<div class="absolute top-[22%] left-[48%] w-12 h-12 bg-amber-900/30 border border-amber-500/20 tile-float-5"></div>
+<div class="absolute top-[8%] left-[62%] w-18 h-18 bg-[#3f4325]/40 border border-yellow-700/25 tile-float-1"></div>
+<div class="absolute top-[28%] right-[8%] w-16 h-16 bg-[#463022]/45 border border-amber-700/30 tile-float-4"></div>
+<!-- Bottom ambient tiles -->
+<div class="absolute bottom-[20%] left-[8%] w-16 h-16 bg-[#57271e]/40 border border-red-900/30 tile-float-2"></div>
+<div class="absolute bottom-[10%] left-[22%] w-14 h-14 bg-slate-800/45 border border-slate-600/25 tile-float-5"></div>
+<div class="absolute bottom-[24%] left-[42%] w-12 h-12 bg-[#2d3a33]/40 border border-emerald-800/25 tile-float-3"></div>
+<div class="absolute bottom-[12%] right-[25%] w-20 h-20 bg-[#2d283e]/40 border border-purple-900/30 tile-float-1"></div>
+<div class="absolute bottom-[22%] right-[10%] w-16 h-16 bg-[#3a4427]/40 border border-lime-800/30 tile-float-4"></div>
+</div>
+<!-- END: AmbientAnimatedBackground -->
+<!-- BEGIN: MainHeader -->
+<header class="relative z-10 w-full px-6 sm:px-10 lg:px-16 pt-7 pb-4 flex items-center justify-between font-mono-tech text-xs tracking-wider" data-purpose="top-navigation">
+<div class="flex items-center space-x-3 text-neutral-300">
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-[#eaff00] shadow-[0_0_8px_rgba(234,255,0,0.8)] animate-pulse"></span>
+<span class="font-semibold uppercase tracking-widest text-[11px] sm:text-xs text-white">FINANCE STORY</span>
+<span class="text-neutral-500 font-bold">•</span>
+<span class="text-neutral-400 uppercase tracking-widest text-[11px] sm:text-xs">INTERACTIVE SUMMARY</span>
+</div>
+<div class="flex items-center space-x-4">
+<button class="group flex items-center space-x-2 text-neutral-400 hover:text-white transition-colors duration-200 tracking-widest uppercase text-[11px] sm:text-xs font-semibold focus:outline-none" type="button">
+<span class="w-1.5 h-1.5 rounded-sm bg-neutral-600 group-hover:bg-[#ff4614] group-hover:shadow-[0_0_6px_rgba(255,70,20,0.8)] transition-all"></span>
+<span>LEDGER ANALYSIS</span>
+</button>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: Main Interactive Layout Container -->
+<main class="relative z-10 flex-grow flex items-center justify-center px-4 sm:px-8 lg:px-14 py-8 md:py-12" data-purpose="modular-workspace">
+<!-- Modular Decoupled Cards Flex Container -->
+<div class="w-full max-w-7xl flex flex-col lg:flex-row items-stretch lg:items-start justify-center gap-6 lg:gap-8">
+<!-- ========================================== -->
+<!-- 1. SIGNATURE FIXED-SIZE YELLOW HERO CARD  -->
+<!-- ========================================== -->
+<section aria-labelledby="executive-intelligence-title" class="yellow-hero-card bg-[#eaff00] text-black p-8 sm:p-10 md:p-12 flex flex-col justify-between shadow-[0_20px_50px_rgba(0,0,0,0.65)] border border-[#d4ff00]/60 transition-all duration-300 hover:shadow-[0_25px_60px_rgba(234,255,0,0.18)] hover:-translate-y-1 relative select-none rounded-none" data-purpose="executive-intelligence-hero">
+<!-- Top header info -->
+<div>
+<div class="font-mono-tech text-xs font-bold uppercase tracking-[0.22em] text-black border-b border-black/20 pb-4 flex items-center justify-between">
+<span>EXECUTIVE INTELLIGENCE</span>
+<span class="text-[10px] bg-black text-[#eaff00] font-mono px-2 py-0.5 font-bold tracking-wider">CORE</span>
+</div>
+<!-- Headline -->
+<div class="pt-8 sm:pt-10">
+<h1 class="font-heading font-extrabold text-5xl sm:text-6xl md:text-[76px] leading-[0.92] tracking-tighter text-black" id="executive-intelligence-title">
+              Finance<br/>Story.
+            </h1>
+</div>
+</div>
+<!-- Bottom Description & Tag -->
+<div class="mt-14 sm:mt-20 pt-6 border-t border-black/20">
+<p class="font-sans text-base sm:text-lg md:text-xl font-medium leading-snug text-neutral-900">
+            Turn financial ledgers, Excel workbooks, or Google Drive folders into an interactive financial summary.
+          </p>
+<div class="mt-6 flex items-center space-x-2 font-mono-tech text-[11px] text-neutral-900 font-bold tracking-wider">
+<span class="inline-block w-2 h-2 bg-black rounded-full animate-ping"></span>
+<span>● REAL-TIME MULTI-ENTITY ENGINE v2.4</span>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 2. FLEXIBLE DYNAMIC ORANGE DATA INGEST CARD-->
+<!-- ========================================== -->
+<section aria-labelledby="data-source-title" class="orange-ingestion-card bg-[#ff4614] text-white p-7 sm:p-9 md:p-10 flex flex-col justify-between shadow-[0_20px_50px_rgba(255,70,20,0.18)] border border-white/10 transition-all duration-300 relative rounded-none" data-purpose="connect-data-source-panel">
+<!-- Top Module Section -->
+<div class="space-y-5">
+<!-- Card Header & Badge -->
+<div class="flex items-center justify-between border-b border-black/25 pb-4">
+<h2 class="font-mono-tech text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-white flex items-center space-x-2" id="data-source-title">
+<span class="inline-block w-2 h-2 bg-white"></span>
+<span>CONNECT DATA SOURCE</span>
+</h2>
+<span class="inline-flex items-center px-2.5 py-1 text-[10px] font-mono-tech font-semibold bg-black/35 text-white tracking-widest border border-white/10">
+              SECURE TLS-256
+            </span>
+</div>
+<!-- Source Interactive Switcher Tabs -->
+<div class="flex items-center space-x-1 border-b border-black/20 pb-1" role="tablist">
+<button aria-selected="true" class="px-3.5 py-1.5 text-xs font-mono-tech uppercase font-bold text-white bg-black/40 border border-white/20 transition-all focus:outline-none" id="tab-upload" role="tab">
+              UPLOAD FILE
+            </button>
+<button aria-selected="false" class="px-3.5 py-1.5 text-xs font-mono-tech uppercase font-semibold text-white/70 hover:text-white hover:bg-black/20 transition-all focus:outline-none" id="tab-drive" role="tab">
+              GOOGLE DRIVE / SHEETS
+            </button>
+<button aria-selected="false" class="px-3.5 py-1.5 text-xs font-mono-tech uppercase font-semibold text-white/70 hover:text-white hover:bg-black/20 transition-all focus:outline-none" id="tab-sample" role="tab">
+              SAMPLE DATA
+            </button>
+</div>
+<!-- Enhanced Interactive Drop Zone -->
+<div aria-label="Upload Excel, CSV, JSON or PDF files" class="group cursor-pointer bg-[#0f1013] hover:bg-black border border-black/80 rounded-none p-6 sm:p-7 text-center transition-all duration-200 hover:shadow-2xl relative" data-purpose="file-upload-dropzone" id="drop-zone" role="button" tabindex="0">
+<input accept=".xlsx,.xls,.csv,.json,.pdf" class="hidden" id="file-input" multiple="" type="file"/>
+<div class="flex flex-col items-center justify-center space-y-2.5">
+<div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:scale-110 group-hover:bg-[#eaff00]/10 transition-all">
+<svg class="w-5 h-5 text-[#eaff00]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<span class="font-mono-tech text-xs sm:text-[13px] font-bold tracking-wider text-[#eaff00] group-hover:brightness-125 transition-colors">
+                UPLOAD EXCEL (.XLSX), CSV, JSON, OR PDF
+              </span>
+<p class="font-sans text-xs sm:text-sm text-neutral-400 group-hover:text-neutral-200">
+                Drag &amp; drop files here or <span class="underline decoration-neutral-500 underline-offset-4 font-semibold text-white group-hover:text-[#eaff00] transition-colors">click to browse</span>
+</p>
+</div>
+<!-- File Attached Notification -->
+<div class="hidden mt-3 p-2 bg-[#eaff00]/10 border border-[#eaff00]/40 text-xs font-mono text-[#eaff00] flex items-center justify-center space-x-2" id="drop-status">
+<span class="w-2 h-2 rounded-full bg-[#eaff00]"></span>
+<span id="drop-status-text">1 file selected: sample_financial_ledger_2025.xlsx</span>
+</div>
+</div>
+<!-- Quick Test Sample Data Chips -->
+<div class="flex flex-wrap items-center gap-2 pt-0.5">
+<span class="text-[10px] font-mono-tech uppercase text-neutral-200/80 tracking-wider">Quick Samples:</span>
+<button class="sample-chip text-[11px] font-mono bg-black/40 hover:bg-black hover:text-[#eaff00] text-neutral-200 px-2.5 py-1 border border-black/30 transition-all flex items-center space-x-1" data-sample="Q3_Consolidated_P&amp;L.xlsx" type="button">
+<span>📊</span>
+<span>Q3_Consolidated_P&amp;L.xlsx</span>
+</button>
+<button class="sample-chip text-[11px] font-mono bg-black/40 hover:bg-black hover:text-[#eaff00] text-neutral-200 px-2.5 py-1 border border-black/30 transition-all flex items-center space-x-1" data-sample="SeriesB_Ledger.csv" type="button">
+<span>📑</span>
+<span>SeriesB_Ledger.csv</span>
+</button>
+</div>
+<!-- Google Drive / Sheets Link Integration Bar -->
+<div class="pt-1">
+<form class="flex flex-col sm:flex-row shadow-lg" id="drive-link-form" onsubmit="event.preventDefault();">
+<input aria-label="Google Drive or Sheets link input" class="flex-1 bg-white text-neutral-900 placeholder:text-neutral-500 px-4 py-3 text-xs sm:text-sm border-0 focus:ring-2 focus:ring-black outline-none font-sans rounded-none transition-shadow" id="drive-link" placeholder="Public Google Drive folder or Sheets link..." type="url"/>
+<button class="bg-[#0f1013] hover:bg-black active:bg-neutral-900 text-white font-mono-tech font-bold text-xs uppercase px-8 py-3 tracking-widest transition-all duration-150 border-t sm:border-t-0 sm:border-l border-black/50 hover:text-[#eaff00] focus:outline-none" id="btn-import" type="button">
+                IMPORT
+              </button>
+</form>
+</div>
+<!-- Microcopy & Legal Disclaimers (Verbatim) -->
+<div class="text-[10px] leading-relaxed text-neutral-100/90 font-sans space-y-1.5 pt-1" data-purpose="compliance-disclaimer">
+<p>
+              By using this feature, you confirm that you have the necessary rights to any content that you upload. Do not generate content that infringes on others' intellectual property or privacy rights. Your use of this generative AI service is subject to our 
+              <a class="underline hover:text-white transition-colors decoration-white/60 font-medium" href="#">Prohibited Use Policy</a>.
+            </p>
+<p class="text-neutral-100/75">
+              Please note that uploads from Google Workspace may be used to develop and improve Google products and services in accordance with our 
+              <a class="underline hover:text-white transition-colors decoration-white/60 font-medium" href="#">terms</a>.
+            </p>
+</div>
+</div>
+<!-- Bottom Controls & Execution Button -->
+<div class="mt-8 space-y-4 pt-4 border-t border-black/25">
+<!-- Advanced Deep Agent Toggle -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+<label class="inline-flex items-center space-x-2.5 cursor-pointer select-none group">
+<input class="w-4 h-4 rounded-none bg-black/50 border-black/80 text-black focus:ring-0 focus:ring-offset-0 cursor-pointer transition-colors checked:bg-black" id="deep-audit" type="checkbox"/>
+<span class="font-sans text-xs font-semibold text-white tracking-wide group-hover:text-neutral-100">
+                Advanced: Deep Agent Audit
+              </span>
+</label>
+<span class="font-mono-tech text-[10px] font-bold tracking-widest text-neutral-100 bg-black/35 px-2.5 py-1 self-start sm:self-auto uppercase border border-black/20">
+              PYTHON SANDBOX • UP TO 10 MIN
+            </span>
+</div>
+<!-- Main Primary Action Button -->
+<button class="w-full bg-[#0a0a0c] hover:bg-black active:scale-[0.99] text-white hover:text-[#eaff00] transition-all duration-200 font-mono-tech font-bold text-xs sm:text-sm tracking-[0.18em] uppercase py-4 px-6 flex items-center justify-center space-x-3 shadow-2xl group border border-black/50 focus:outline-none" id="open-story-cta" type="button">
+<span id="cta-label">OPEN FINANCE STORY</span>
+<span class="transform transition-transform duration-200 group-hover:translate-x-1.5 text-base" id="cta-arrow">→</span>
+</button>
+</div>
+</section>
+</div>
+</main>
+<!-- END: Main Interactive Layout Container -->
+<!-- BEGIN: BottomDockBar -->
+<footer class="relative z-10 w-full bg-[#0f1013]/95 border-t border-neutral-800/80 px-6 sm:px-10 py-3 flex items-center justify-between text-neutral-400 font-mono-tech text-[11px]" data-purpose="dock-status-bar">
+<div class="flex items-center space-x-4">
+<span class="flex items-center space-x-2">
+<span class="inline-block w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]"></span>
+<span class="text-neutral-200 font-semibold">GATEWAY: ACTIVE</span>
+</span>
+<span class="hidden sm:inline-block text-neutral-600">|</span>
+<span class="hidden sm:inline-block text-neutral-400 tracking-wider">FINANCIAL GRAPH PARSER V4.2</span>
+</div>
+<!-- Center pill bar handle indicator -->
+<div class="hidden md:flex items-center justify-center">
+<div class="w-16 h-1.5 rounded-full bg-neutral-700/80 hover:bg-neutral-500 hover:w-20 transition-all cursor-pointer" title="Expand Ledger Terminal"></div>
+</div>
+<div class="flex items-center space-x-3 text-neutral-400">
+<button aria-label="Toggle drawer" class="hover:text-white transition-colors p-1" type="button">
+<svg class="w-4 h-4 transform hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</footer>
+<!-- END: BottomDockBar -->
+<!-- Interactive Client-side Scripting -->
+<script data-purpose="interaction-handlers">
+    document.addEventListener('DOMContentLoaded', () => {
+      const dropZone = document.getElementById('drop-zone');
+      const fileInput = document.getElementById('file-input');
+      const dropStatus = document.getElementById('drop-status');
+      const dropStatusText = document.getElementById('drop-status-text');
+      const openStoryCta = document.getElementById('open-story-cta');
+      const ctaLabel = document.getElementById('cta-label');
+      const ctaArrow = document.getElementById('cta-arrow');
+      const driveInput = document.getElementById('drive-link');
+      const btnImport = document.getElementById('btn-import');
+      const sampleChips = document.querySelectorAll('.sample-chip');
+      const tabs = [document.getElementById('tab-upload'), document.getElementById('tab-drive'), document.getElementById('tab-sample')];
+
+      // Tab Switcher Interaction
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => {
+            t.classList.remove('bg-black/40', 'border-white/20', 'text-white');
+            t.classList.add('text-white/70');
+            t.setAttribute('aria-selected', 'false');
+          });
+          tab.classList.add('bg-black/40', 'border-white/20', 'text-white');
+          tab.classList.remove('text-white/70');
+          tab.setAttribute('aria-selected', 'true');
+
+          if (tab.id === 'tab-drive') {
+            driveInput.focus();
+          } else if (tab.id === 'tab-upload') {
+            dropZone.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+      });
+
+      // Quick test sample chips
+      sampleChips.forEach(chip => {
+        chip.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const fileName = chip.getAttribute('data-sample');
+          dropStatusText.textContent = `Attached: ${fileName} [Ready to Parse]`;
+          dropStatus.classList.remove('hidden');
+          dropZone.classList.add('border-[#eaff00]');
+        });
+      });
+
+      // Click to open file dialog
+      dropZone.addEventListener('click', () => {
+        fileInput.click();
+      });
+
+      // Drag and drop event listeners
+      ['dragenter', 'dragover'].forEach(eventName => {
+        dropZone.addEventListener(eventName, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          dropZone.classList.add('dragover-highlight');
+        });
+      });
+
+      ['dragleave', 'drop'].forEach(eventName => {
+        dropZone.addEventListener(eventName, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          dropZone.classList.remove('dragover-highlight');
+        });
+      });
+
+      dropZone.addEventListener('drop', (e) => {
+        const files = e.dataTransfer.files;
+        if (files.length > 0) {
+          dropStatusText.textContent = `${files.length} file(s) attached: ${files[0].name}`;
+          dropStatus.classList.remove('hidden');
+        }
+      });
+
+      fileInput.addEventListener('change', () => {
+        if (fileInput.files.length > 0) {
+          dropStatusText.textContent = `Attached: ${fileInput.files[0].name}`;
+          dropStatus.classList.remove('hidden');
+        }
+      });
+
+      // Import button visual response
+      btnImport.addEventListener('click', () => {
+        if (driveInput.value.trim() !== '') {
+          const originalText = btnImport.textContent;
+          btnImport.textContent = 'LINKED ✓';
+          btnImport.classList.add('text-[#eaff00]');
+          setTimeout(() => {
+            btnImport.textContent = originalText;
+            btnImport.classList.remove('text-[#eaff00]');
+          }, 2400);
+        } else {
+          driveInput.focus();
+        }
+      });
+
+      // Main CTA button click state & simulation
+      let isProcessing = false;
+      openStoryCta.addEventListener('click', () => {
+        if (isProcessing) return;
+        isProcessing = true;
+
+        const isDeepAudit = document.getElementById('deep-audit').checked;
+        ctaLabel.textContent = isDeepAudit ? 'SPINNING UP PYTHON SANDBOX...' : 'PARSING FINANCIAL STORY...';
+        ctaArrow.innerHTML = '◐';
+        ctaArrow.classList.add('animate-spin');
+
+        setTimeout(() => {
+          ctaLabel.textContent = 'FINANCIAL STORY READY ✓';
+          ctaArrow.classList.remove('animate-spin');
+          ctaArrow.innerHTML = '→';
+          openStoryCta.classList.add('text-[#eaff00]', 'border-[#eaff00]');
+
+          setTimeout(() => {
+            ctaLabel.textContent = 'OPEN FINANCE STORY';
+            openStoryCta.classList.remove('text-[#eaff00]', 'border-[#eaff00]');
+            isProcessing = false;
+          }, 2000);
+        }, 1600);
+      });
+
+      // Interactive mouse parallax on ambient background tiles
+      window.addEventListener('mousemove', (e) => {
+        const mouseX = (e.clientX / window.innerWidth) - 0.5;
+        const mouseY = (e.clientY / window.innerHeight) - 0.5;
+        const tiles = document.querySelectorAll('#ambient-canvas > div');
+        tiles.forEach((tile, index) => {
+          const depth = (index + 1) * 6;
+          tile.style.transform = `translate(${mouseX * depth}px, ${mouseY * depth}px)`;
+        });
+      });
+    });
+  </script>
+</body></html>

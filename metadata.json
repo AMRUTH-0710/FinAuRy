@@ -1,0 +1,8 @@
+{
+  "name": "Remix Finance Story - Managed Agent",
+  "description": "Transform any business Google Drive folder, Google Sheet, Excel (.xlsx) workbook, or CSV ledger into an interactive financial story, explorer, and natural-language query studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

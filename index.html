@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remix Finance Story - Managed Agent</title>
+    <meta
+      name="description"
+      content="Transform any business Google Drive folder, Google Sheet, Excel (.xlsx) workbook, or CSV ledger into an interactive financial story, explorer, and natural-language query studio."
+    />
+    <meta property="og:title" content="Remix Finance Story - Managed Agent" />
+    <meta
+      property="og:description"
+      content="Transform any business Google Drive folder, Google Sheet, Excel (.xlsx) workbook, or CSV ledger into an interactive financial story, explorer, and natural-language query studio."
+    />
+    <script>
+      (function () {
+        // 1. Intercept console methods to filter out Vite HMR WebSocket errors
+        var origError = console.error;
+        console.error = function () {
+          var args = Array.prototype.slice.call(arguments);
+          var msg = args
+            .map(function (a) {
+              return typeof a === 'string' ? a : (a && a.message) || String(a);
+            })
+            .join(' ');
+          if (
+            msg.indexOf('failed to connect to websocket') !== -1 ||
+            msg.indexOf('WebSocket closed without opened') !== -1 ||
+            (msg.indexOf('[vite]') !== -1 &&
+              (msg.indexOf('websocket') !== -1 || msg.indexOf('WebSocket') !== -1))
+          ) {
+            return;
+          }
+          return origError.apply(console, arguments);
+        };
+
+        var origDebug = console.debug;
+        console.debug = function () {
+          var args = Array.prototype.slice.call(arguments);
+          var msg = args
+            .map(function (a) {
+              return typeof a === 'string' ? a : (a && a.message) || String(a);
+            })
+            .join(' ');
+          if (msg.indexOf('[vite]') !== -1) {
+            return;
+          }
+          return origDebug.apply(console, arguments);
+        };
+
+        var origWarn = console.warn;
+        console.warn = function () {
+          var args = Array.prototype.slice.call(arguments);
+          var msg = args
+            .map(function (a) {
+              return typeof a === 'string' ? a : (a && a.message) || String(a);
+            })
+            .join(' ');
+          if (
+            msg.indexOf('failed to connect to websocket') !== -1 ||
+            msg.indexOf('WebSocket closed without opened') !== -1 ||
+            (msg.indexOf('[vite]') !== -1 &&
+              (msg.indexOf('websocket') !== -1 || msg.indexOf('WebSocket') !== -1))
+          ) {
+            return;
+          }
+          return origWarn.apply(console, arguments);
+        };
+
+
+        // 3. Catch and suppress any unhandledrejection / error events related to WebSockets
+        window.addEventListener('unhandledrejection', function (event) {
+          var reason = event.reason;
+          var msg =
+            (reason && (reason.message || (typeof reason === 'string' ? reason : ''))) || '';
+          if (
+            msg.indexOf('WebSocket') !== -1 ||
+            msg.indexOf('websocket') !== -1 ||
+            msg.indexOf('closed without opened') !== -1
+          ) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+          }
+        });
+
+        window.addEventListener('error', function (event) {
+          var msg = (event && (event.message || '')) || '';
+          if (
+            msg.indexOf('WebSocket') !== -1 ||
+            msg.indexOf('websocket') !== -1 ||
+            msg.indexOf('closed without opened') !== -1
+          ) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+          }
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
